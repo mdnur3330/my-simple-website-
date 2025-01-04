@@ -1,12 +1,57 @@
-h3{
-    background-color: darkblue;
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    background-color: aqua;
+    padding: 10px 0;
+
+}
+.navbar ul li{
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 5px;
 
 
 }
-p{
-    color: red;
+ 
+.navbar ul li a{
+   text-decoration: none;
+   color: black
+   
 }
-.new{
-    background-color: cadetblue;
-    margin: 10px;
+
+.navbar ul li:hover{
+    background-color: gray;
+    color: white;
+    transition: 1s;
+}
+.navbar ul li:hover a{
+    color: white;
+}
+
+
+/* headimg area strat heare */
+.hading-area{
+   max-width: 100%; 
+   min-height: 500px;
+   display: flex;
+   align-items: center;
+   background-image: url('img/blog4.jpg');
+}
+.hading-area .head-title{
+    width: 700px ;
+    height: 200px;
+    padding: 30px 20px;
+    background-color: rgba(128, 128, 128, 0.793);
+    font-size: 76px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-transform: capitalize;
+    border: 4px solid yellow;
+    color: white;
 }
